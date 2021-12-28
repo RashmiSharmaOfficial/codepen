@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codepen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/codemirror.min.js"
+        integrity="sha512-JpMCZgesTWh1iu/8ujURbwkJBgbgFWe3sTNCHdIuEvPwZuuN0nTUr2yawXahpgdEK7FOZUlW254Rp7AyDYJdjg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/codemirror.min.css"
+        integrity="sha512-CCnciBUnVXwa6IQT9q8EmGcarNit9GdKI5nJnj56B1iu0LuD13Qn/GZ+IUkrZROZaBdutN718NK6mIXdUjZGqg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="header">
+        <div class="logo" style="color: white;">Codepen.io</div>
+        <button id="run-btn">Run</button>
+    </div>
+    <div class="editor">
+        <div class="code">
+            <h1>HTML</h1>
+            <div class="html-code"></div>
+            <h1>CSS</h1>
+            <div class="css-code"></div>
+            <h1>JS</h1>
+            <div class="js-code"></div>
+        </div>
+        <div class="preview">
+            <iframe id="preview-window"></iframe>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
